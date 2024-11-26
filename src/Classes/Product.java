@@ -37,7 +37,7 @@ abstract class Product {
         stockQuantity += quantity;
     }
 
-    public void updatePrice(double newPrice) {
+    public void updatePrice(double newPrice) {    //alterar preço
         if (newPrice <= 0) {
             System.out.println("Price must be greater than zero.");
             return; 
